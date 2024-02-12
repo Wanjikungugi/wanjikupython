@@ -33,9 +33,17 @@ else:
     print(number, "is odd")
 
     # A program that checks whether a number is a prime number or not
-number = 17
+number = 16
 
-if number % 1 == 0:
-    print(number,"is prime number")
-else:
-    print(number,"is not prime number")
+if number > 1:
+    for x in range(2,number)
+        if number % x ==0:
+            print("not a prime number")
+        else:
+            print("the number is prime")
+            break
+    else:
+        print("not a prime number")
+
+
+
